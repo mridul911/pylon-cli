@@ -1,0 +1,43 @@
+{
+  "name": "pylon-cli",
+  "version": "0.1.0",
+  "description": "Read-only CLI for the Pylon API",
+  "type": "module",
+  "bin": {
+    "pylon": "./bin/pylon.js"
+  },
+  "main": "./dist/cli.js",
+  "files": [
+    "dist/",
+    "bin/",
+    "skills/"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "pylon",
+    "cli",
+    "api",
+    "customer-support"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

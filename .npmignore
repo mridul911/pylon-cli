@@ -1,0 +1,13 @@
+src/
+tests/
+.env
+.env.*
+.claude/
+.git/
+.gitignore
+.DS_Store
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+*.tgz
+node_modules/
