@@ -41,7 +41,7 @@ The `pylon` command must be available on PATH:
 pylon --version
 ```
 
-If not installed: `npm install -g pylon-cli`
+If not installed: `npm install -g @mridul_dubey__/pylon-cli`
 
 ## Authentication
 

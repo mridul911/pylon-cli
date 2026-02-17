@@ -5,7 +5,7 @@ Thanks for your interest in contributing! This guide covers everything you need 
 ## Development setup
 
 ```bash
-git clone https://github.com/11x-engineering/pylon-cli.git
+git clone https://github.com/mridul911/pylon-cli.git
 cd pylon-cli
 npm install
 npm run build

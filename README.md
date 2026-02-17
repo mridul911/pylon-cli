@@ -20,7 +20,7 @@ Pylon is a **B2B customer support platform** that unifies communication channels
 ## Installation
 
 ```bash
-npm install -g pylon-cli
+npm install -g @mridul_dubey__/pylon-cli
 ```
 
 ## Authentication
